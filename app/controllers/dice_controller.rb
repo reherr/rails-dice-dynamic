@@ -13,7 +13,7 @@ class DiceController < ApplicationController
   render({ :template => "game_template/flexible"})
   end
 
-  def rules
-    render({ :template => "game_templates/homepage"})
+  def home
+    render({ :template => "game_template/homepage"})
   end
 end
